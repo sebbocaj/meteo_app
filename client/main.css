@@ -1,1 +1,85 @@
-/* CSS declarations go here */
+body {
+	text-align:center;
+	height:100%;
+
+}
+
+#app {
+	height:100%;
+	font-size:100%;
+}
+
+.Item1 {
+	height:43%;
+}
+
+.Items { 
+		height:45%;
+		display :	grid;
+					grid-template-columns: 1fr 1fr 1fr;
+					grid-gap: 2em;
+}
+
+.allItem {
+	height:100%;
+}
+
+.header {
+		height:12%;
+		display :	grid;
+					grid-template-columns: 1fr 2fr 1fr;
+					grid-gap: 1em;
+}
+
+.button {
+	text-align:left;
+}
+
+.date {
+	text-align:center;
+	margin-top : 10px;
+}
+
+.time {
+	text-align:right;
+	margin : 10px;
+	font-size: 0.9em;
+}
+
+.icon_dayone {
+	width:28%;
+}
+
+.icon_days {
+	width:30%;
+}
+
+.City_name {
+	font-size:2.5em;
+}
+
+.temp_item1 {
+	font-size: 1.4em;
+}
+
+.temp_week {
+	margin-bottom:0px;
+	margin-top:5px;
+	font-size:0.9em;
+}
+
+.button_city_search {
+	background-color: #ffffff;
+	margin:10px;
+}
+
+.days_items {
+	font-weight:bold;
+	margin-bottom:10px;
+	font-size:1.1em;
+}
+
+
+.green {
+	color:green;
+}
