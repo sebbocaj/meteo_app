@@ -5,4 +5,4 @@
 <p>I used OpenWeatherMap API for the forecast</p>
 
 <h1>Demo</h1>
-<p>https://weather-app-bcs.herokuapp.com/</p>
+<p><a target="_blank">https://weather-app-bcs.herokuapp.com/</a></p>
