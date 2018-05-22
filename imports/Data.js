@@ -24,7 +24,7 @@ export default class Data extends React.Component{
 
 	getData(latitude, longitude) {	
 			var that = this
-			axios.get (`https://crossorigin.me/http://api.openweathermap.org/data/2.5/forecast/daily?lat=${latitude}&lon=${longitude}&units=metric&cnt=8&APPID=71d4009dcf0a0170e9a484cd0064f300`)
+			axios.get (`https://api.openweathermap.org/data/2.5/forecast/daily?lat=${latitude}&lon=${longitude}&units=metric&cnt=8&APPID=71d4009dcf0a0170e9a484cd0064f300`)
 		  .then (res => {
 		  	that.setState({temp:res.data.list}) ,()=>{
 							}
