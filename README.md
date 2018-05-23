@@ -6,3 +6,6 @@
 
 <h1>Demo</h1>
 <p><a href="https://weather-app-bcs.herokuapp.com/" target="_blank">https://weather-app-bcs.herokuapp.com/</a></p>
+
+<br/><br/>
+<b>This application is suppose to be for mobile but for demo purpose i transform it to web app</b>
